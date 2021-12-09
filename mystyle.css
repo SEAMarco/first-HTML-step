@@ -1,0 +1,25 @@
+table{
+    border: black solid 1px;
+    background-color: burlywood;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+a img:visited{
+    border: 3px solid green;
+    margin: -3px -3px -3px -3px;
+}
+
+img:hover{
+    border: 3px solid red;
+    margin: -3px -3px -3px -3px;
+}
+
+img:active{
+    border: 3px solid yellow;
+    margin: -3px -3px -3px -3px;
+}
+

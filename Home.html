@@ -5,12 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+
+    <style>
+        #list {
+           color: rgb(230, 5, 5);
+        }
+       
+        strong {
+            border: indigo 1px solid;
+            margin: 5px;
+            padding: 2px 1px 2px 1px;
+        }
+    </style>
+
 </head>
 <body>
     <nav> 
-        <a href="home.html">Home</a> 
         <a href="zweiteDatei.html">zweite Datei</a>    
         <a href="kontakt.html">Kontakt</a>
+        <a href="captcha.html">Captcha</a>
      </nav>
 
     <h1>Meine ersten Schritte in HTML</h1>
@@ -20,7 +33,7 @@
         <em>neue Zeile</em>
     </p>
     <ul>
-        <li>erster Listeneintrag einer unordered list</li>
+        <li>erster <span id="list">Listeneintrag</span> einer unordered list</li>
         <li>zweiter Listeneintrag einer unordered list</li>
             <ol>
                 <li>erster Listeneintrag einer ordered list</li>
