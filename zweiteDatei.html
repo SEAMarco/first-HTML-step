@@ -7,22 +7,60 @@
     <title>zweite Datei</title>
 
     <style>
-        table, th, td {border: 1px solid;}
+        table, th, td {
+          border: 1px solid;}
+
+          table{
+            background-color: lightskyblue;
+            text-align: center;
+          }
+
+        th{
+          background-color: khaki;
+        }
+
+        td{
+          background-color: lightcoral;
+        }
+
+        #aussen{
+          background-color: yellow;
+          position: relative;
+          margin:50px 0 0 0;
+        }
+
+        #innen{
+          background-color: tomato;
+          width: 100px;
+          height: 50px;
+          text-align: center;
+          left: 100px;
+          top: -30px;
+          position:absolute;
+        }
+
     </style>
-    
 </head>
 <body>
     <nav> 
-        <a href="home.html">Home</a> 
-        <a href="zweiteDatei.html">zweite Datei</a>    
+        <a href="home.html">Home</a>  
         <a href="kontakt.html">Kontakt</a>
+        <a href="captcha.html">Captcha</a>
      </nav>
 
-    <h1>Ich bin die zweite Datei</h1>
+    <div id="aussen">
+        AUSSEN
+         <div id="innen">
+           INNEN 
+         </div>
+         AUSSEN
+    </div>
+    
+     <h1>Ich bin die zweite Datei</h1>
     <br>
     <h2>mit einer zweiten Überschrift</h2>
     <br>
-    <p>und einem Verweis auf die Homepage der <a href="https://www.telekom.de">Telekom</a></p>
+    <p>und einem Verweis auf die Homepage der <a href="https://www.telekom.de">Telekom</a>. Nun benötige ich einfach noch mehr Text, um noch etwas mehr zu probieren. Abschneiden ist doof! Ungewollt verschieben - auch doof!</p>
     <br>
     <p>weil es so schön ist, füge ich hier noch eine kleine Tabelle ein</p>
     <table>
