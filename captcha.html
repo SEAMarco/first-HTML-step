@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Captcha</title>
     <link rel="stylesheet" href="mystyle.css">
+    <script src="my_script.js" type="module"></script>
+
 </head>
 <body>
     <nav> 
@@ -13,28 +15,52 @@
         <a href="zweiteDatei.html">zweite Datei</a>    
         <a href="kontakt.html">Kontakt</a>
      </nav>
-
+     <header id="swRand" class="blackborder">
+        <div>
+            ich bin der Header mit der id swRand und der class blackborder
+        </div>
+     </header>
+     
      <h1>Bitte wähle alle Bilder mit einem Fahrrad aus.</h1>
+     <div>
+         Ich bin das erste div im Body
 
+         <div>
+            Ich bin das zweite div im Body innerhalb des ersten div
+         </div>
+
+     </div>
     <table>
         <tr>
-        <td><img src="auto.png" alt="Auto" width="100" height="100"/><a href="http://www.google.de"></a></td>
-        <td><img src="Fahrrad1.png" alt="Fahrrad" width="100" height="100"/></td>
-        <td><img src="Motorrad.png" alt="Motorrad" width="100" height="100"/></td>
+        <td id="Auto1"><img src="auto.png" alt="Auto" width="100" height="100"/></td>
+        <td id="Fahr1"><img src="Fahrrad1.png" alt="Fahrrad" width="100" height="100"/></td>
+        <td id="Moto1"><img src="Motorrad.png" alt="Motorrad" width="100" height="100"/></td>
         </tr>
 
         <tr>
-            <td><img src="Kettenglieder.png" alt="Kettenglieder" width="100" height="100"/></td>
-            <td><img src="Tacho.png" alt="Tacho" width="100" height="100"/></td>
-            <td><img src="Navi.png" alt="Navi" width="100" height="100"/></td>
+            <td id="Kette"><img src="Kettenglieder.png" alt="Kettenglieder" width="100" height="100"/></td>
+            <td id="Tacho"><img src="Tacho.png" alt="Tacho" width="100" height="100"/></td>
+            <td id="Navi"><img src="Navi.png" alt="Navi" width="100" height="100"/></td>
         </tr>
 
         <tr>
-            <td><img src="Fahrrad2.png" alt="Fahrrad" width="100" height="100"/></td>
-            <td><img src="Motorradsprung.png" alt="Motorradsprung" width="100" height="100"/></td>
-            <td><img src="altes Auto.png" alt="altes Auto" width="100" height="100"/></td>
+            <td id="Fahr2"><img src="Fahrrad2.png" alt="Fahrrad" width="100" height="100"/></td>
+            <td id="Moto2"><img src="Motorradsprung.png" alt="Motorradsprung" width="100" height="100"/></td>
+            <td id="Auto2"><img src="altes Auto.png" alt="altes Auto" width="100" height="100"/></td>
         </tr>
 
     </table>
+         
+              <div id="Bodydiv">
+                  und ich das dritte div im Body mit einer ID
+             </div>
+
+             <footer>
+                <div>
+                    Ich bin ein div im footer und sollte unformatiert dargestellt werden
+                </div>
+            </footer>
+
 </body>
+
 </html>
